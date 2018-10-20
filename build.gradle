@@ -1,6 +1,15 @@
 plugins {
     id 'java'
+    id 'maven'
 }
 
 group 'org.abimon'
 version '0.1'
+
+task pom {
+    doLast {
+        pom {
+
+        }.writeTo("$buildDir/pom.xml")
+    }
+}

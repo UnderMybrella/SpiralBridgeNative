@@ -1,0 +1,6 @@
+plugins {
+    id 'java'
+}
+
+group 'org.abimon'
+version '0.1'
